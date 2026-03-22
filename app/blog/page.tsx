@@ -10,7 +10,7 @@ const Blog = () => {
         {/* card */}
         <div className="c">
           <Link href="blogpost\Hello mitro !">
-            <h3 className="text-xl font-semibol cursor-pointer">How to learn Next.js in 2026.</h3>
+            <h2 className="text-xl font-semibol cursor-pointer">How to learn Next.js in 2026.</h2>
           </Link>
           <p className="text-base text-zinc-600 dark:text-zinc-400">
             I will teach you how to learn Next.js in 2026.
@@ -19,7 +19,7 @@ const Blog = () => {
 
         <div className="c">
           <Link href="blogpost\Hello mitro !">
-            <h3 className="text-xl font-semibol cursor-pointer">How to learn Next.js in 2026.</h3>
+            <h2 className="text-xl font-semibol cursor-pointer">How to learn Next.js in 2026.</h2>
           </Link>
           <p className="text-base text-zinc-600 dark:text-zinc-400">
             I will teach you how to learn Next.js in 2026.
@@ -28,7 +28,7 @@ const Blog = () => {
 
         <div className="c">
           <Link href="blogpost\Hello mitro !">
-            <h3 className="text-xl font-semibol cursor-pointer">How to learn Next.js in 2026.</h3>
+            <h2 className="text-xl font-semibol cursor-pointer">How to learn Next.js in 2026.</h2>
           </Link>
           <p className="text-base text-zinc-600 dark:text-zinc-400">
             I will teach you how to learn Next.js in 2026.

@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 const Blogpost = async ({ params }: { params: { id: string } }) => {
-    const { id } = await params;
-     const decodedId = decodeURIComponent(id);
+  const { id } = await params;
+  const decodedId = decodeURIComponent(id);
   return (
     <div className='mt-20 px-80 py-10'>
       <h1 className='text-4xl pb-5'>Title of the page {decodedId}</h1>

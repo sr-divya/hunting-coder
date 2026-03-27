@@ -20,7 +20,7 @@ export async function GET() {
      const allblogs = await Promise.all(
       files.map(async (item) => {
         const data = await fs.readFile(`./app/blogdata/${item}`,"utf8");
-        return JSON.parse(data); // convert to object
+        return JSON.parse(data); 
       })
     );
 

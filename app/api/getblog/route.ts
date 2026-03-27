@@ -16,6 +16,6 @@ export async function GET(request : NextRequest) {
 
   } catch (err) {
     console.error(err);
-    return Response.json({ error: "No such blog post found" });
+    return Response.json({ error: "No such blog post found" }, { status: 404 });
   }
 }

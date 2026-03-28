@@ -18,10 +18,12 @@ export async function POST(request: Request) {
             message: "POST request received",
             data: body,
         }, { status: 200 });
+        
     } catch (error) {
         return NextResponse.json({
             message: "Error processing POST request",
         }, { status: 500 });
     }
+    
 }
 

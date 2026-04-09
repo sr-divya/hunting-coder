@@ -19,18 +19,16 @@ const Blog =() => {
   },[]);
   return (
     <div>
-      <div className="flex flex-col gap-5 px-80 items-center justify-center ">
-        {/* card section */}
-        {/* <h2 className="text-2xl font-semibold">Popular blog posts</h2> */}
-        {/* card */}
+      <div className=" py-10 flex flex-col gap-8 px-120 items-center justify-center ">
+        
         {blogs.map((blogitem,index)=>{
           return (
-            <div className="c" key={index}>
+            <div className="p-6 border border-zinc-200 dark:border-zinc-700 rounded-2xl shadow-sm hover:shadow-md hover:scale-[1.02] transition duration-300 bg-white dark:bg-zinc-900" key={index}>
           <Link href={`blogpost/${blogitem.slug}`}>
-            <h2 className="text-xl mt-10 font-semibol cursor-pointer">{blogitem.title}</h2>
+            <h2 className="text-xl  font-semibold cursor-pointer">{blogitem.title}</h2>
           </Link>
           <p className="text-base text-zinc-600 dark:text-zinc-400 mt-3">
-            {blogitem.content.substr(0, 400)}...
+            {blogitem.content.substr(0, 100)}...
           </p>
         </div>
           )

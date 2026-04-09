@@ -35,8 +35,9 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
-    "app/api/Blog/route.ts"
-, "app/api/index.js"  ],
+    "app/api/Blog/route.ts",
+    "app/api/index.js"
+  ],
   "exclude": [
     "node_modules"
   ]

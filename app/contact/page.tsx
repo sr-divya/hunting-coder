@@ -64,7 +64,7 @@ const Contact = () => {
   return (
     <div className=' dark:bg-black'>
       {/* <h1 className='text-3xl'>Contact Us</h1> */}
-      <div className="min-h-screen flex items-center justify-center ">
+      <div className="min-h flex justify-center mt-10 ">
         <form onSubmit={handleSubmit} className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md space-y-5">
 
           <h2 className="text-2xl font-bold text-center text-gray-800">
@@ -102,7 +102,7 @@ const Contact = () => {
             <label htmlFor="description" className="block text-sm font-medium text-gray-700">Description</label>
             <textarea
               name="description" id="description" value={description} onChange={handleChange}
-              rows={4}
+              rows={2}
               placeholder="Enter your message"
               className="mt-1 w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
             ></textarea>
